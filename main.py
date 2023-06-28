@@ -1,8 +1,10 @@
-s = input('Введите строку: ')
+s = input('ВВОД: ')
 
-sym_counter = {}
-for sym in s:
-    sym_counter[sym] = sym_counter.get(sym, 0) + 1
+def palindrom(s):
+    rev_s = s[::-1]
+    if rev_s == s:
+        return True
+    return False
 
 
-print(sym_counter)
+print(palindrom(s))
