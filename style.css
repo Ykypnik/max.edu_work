@@ -1,12 +1,33 @@
 h1{
-    background: green;
-    color: red;
+    background: #1b6b6f;
+    color: pink;
 }
 
 
 .text{
-    border: 2px solid pink;
+    border: 2px solid #1b6b6f;
     border-radius: 5px;
     font-size: 23px;
     padding: 20px;
+}
+
+
+.click{
+    font-size: 40px;
+    text-align:center;
+    display:block;
+}
+
+
+.marginauto {
+    margin: 10px auto 20px;
+    display: block;
+}
+
+
+.dz{
+    text-align: center;
+    font-style: oblique;
+    font-size: 24px;
+    text-shadow: 1px 1px 10px green;
 }
